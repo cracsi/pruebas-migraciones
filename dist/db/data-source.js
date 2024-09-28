@@ -4,7 +4,7 @@ exports.dataSourceOptions = void 0;
 const typeorm_1 = require("typeorm");
 exports.dataSourceOptions = {
     type: 'postgres',
-    host: 'cloudsql/abiding-operand-437010-s7:us-central1:sqlhobbies',
+    host: 'localhost',
     port: 5432,
     username: 'postgres',
     password: 'postgres',

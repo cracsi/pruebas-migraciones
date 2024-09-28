@@ -3,7 +3,7 @@ import { DataSource,DataSourceOptions } from "typeorm"
 export const dataSourceOptions: DataSourceOptions=
 {
     type: 'postgres',
-      host: 'cloudsql/abiding-operand-437010-s7:us-central1:sqlhobbies',
+      host: 'localhost',
       port: 5432,
       username: 'postgres',
       password: 'postgres',
