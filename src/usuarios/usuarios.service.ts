@@ -10,6 +10,7 @@ export class UsuariosService {
     private readonly usuarioRepository: Repository<UsuarioEntity>,
 ){}
 
+
 async findAll(): Promise<UsuarioEntity[]> {
   return await this.usuarioRepository.find({ relations: ["hobbies"] });
 }
